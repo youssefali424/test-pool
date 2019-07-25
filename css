@@ -1,0 +1,10 @@
+//remove borders from panel:
+//addGrid is the panel class
+///////////////////////////////
+.addGrid.ui-panelgrid>*>tr,
+.addGrid.ui-panelgrid .ui-panelgrid-cell ,
+.addGrid.ui-panel>*>tr,
+.addGrid.ui-panel .ui-panel-cell{
+    border: none;
+}
+///////////////////////////////
